@@ -1,0 +1,37 @@
+.allordersatistics #item1 {
+  background-color: #3e215d;
+  border-radius: 12px;
+}
+.allordersatistics #item2 {
+  background-color: #1a237e;
+  border-radius: 12px;
+}
+.allordersatistics #item3 {
+  background-color: #053742;
+  border-radius: 12px;
+}
+.allordersatistics #item4 {
+  background-color: #263238;
+  border-radius: 12px;
+}
+.allordersatistics #item5 {
+  grid-column: 1/-1;
+  background-color: #969393;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.allordersatistics {
+  display: grid;
+  grid-template-rows: 109px 109px;
+  grid-template-columns: repeat(4, 264px);
+  grid-gap: 30px;
+}
+@media screen and (max-width: 600px) {
+  .allordersatistics {
+    display: grid;
+    grid-template-rows: 109px;
+    grid-template-columns: repeat(5, 264px);
+    grid-gap: 30px;
+  }
+}

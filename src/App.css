@@ -1,0 +1,47 @@
+.containe {
+  display: grid;
+  /* height: 100vh; */
+  /* color: red; */
+  grid-template-rows: 60px 1fr;
+  /* footer 50px */
+  grid-template-columns: repeat(1, 260px);
+  /* margin: 50px auto; */
+  /* border: 1px solid black; */
+  /* grid-gap: 20px; */
+  grid-template-areas:
+    "side head  head"
+    "side body body";
+}
+.header {
+  position: sticky;
+  top: 1px;
+  /* background-color: green; */
+  border-bottom: 1px solid rgb(230, 225, 225);
+  /* grid-column: 1/-1; */
+  grid-area: head;
+}
+.footer {
+  /* border: 1px solid rgb(230, 225, 225); */
+  /* background-color: green; */
+  /* border: 1px solid black; */
+  /* grid-column: 1/-1; */
+  /* grid-area: footer; */
+}
+.sidebar {
+  /* position: fixed; */
+  /* top: 0%; */
+  border: 1px solid rgb(230, 225, 225);
+  /* background-color: green; */
+  /* border: 1px solid black; */
+  grid-area: side;
+  /* position: sticky; */
+  /* top: 10px; */
+}
+.bodyarea {
+  position: sticky;
+  top: 1px;
+  /* border: 1px solid rgb(230, 225, 225); */
+  grid-area: body;
+  /* background-color: green; */
+  /* border: 1px solid black; */
+}

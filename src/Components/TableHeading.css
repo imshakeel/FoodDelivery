@@ -1,0 +1,24 @@
+/* .order {
+  margin-left: 200px;
+} */
+.ordernumber {
+  font-size: 19px;
+  padding-top: 0%;
+  padding-bottom: -5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  background-color: rgba(228, 225, 225, 0.884);
+  border-radius: 0.3rem;
+}
+
+.orderlist {
+  color: #f74d4a;
+  font-size: 16px;
+  padding-left: 40px;
+  padding-top: 30px;
+}
+
+.container {
+  padding-left: 20px;
+  padding-top: 10px;
+}

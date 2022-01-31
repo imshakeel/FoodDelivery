@@ -1,0 +1,46 @@
+.bordertable {
+  border: 1px solid rgb(230, 225, 225);
+  border-radius: 0.4rem;
+  padding: 10px;
+}
+
+.container button {
+  display: relative;
+  right: 200px;
+  color: white;
+  margin-left: 8px;
+  background-color: #fc6a57;
+  border-radius: 0.3rem;
+  border: none;
+  padding: 9px 14px;
+}
+table {
+  font-family: myFirstFont;
+}
+/* @font-face {
+      font-family: versatile;
+      src: url(Versatile.ttf);
+    } */
+.container th {
+  background-color: #f8fafd;
+  font-family: versatile;
+  font-size: 12px;
+  text-align: center;
+  color: rgb(110, 106, 106);
+  padding: 16px;
+  cursor: pointer;
+}
+.container tbody tr {
+  font-family: versatile;
+  color: rgb(146, 144, 144);
+  /* margin: auto; */
+  text-align: center;
+  font-size: 15px;
+  padding: 16px;
+  cursor: pointer;
+}
+.css-148o527-ItemComponent.react-dropdown-select-item-selected {
+  background: #fc6a57;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
